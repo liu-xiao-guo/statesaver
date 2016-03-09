@@ -1,0 +1,17 @@
+{
+    "name": "statesaver.ubuntu",
+    "description": "description of statesaver",
+    "architecture": "all",
+    "title": "statesaver",
+    "hooks": {
+        "statesaver": {
+            "apparmor": "statesaver.apparmor",
+            "desktop":  "statesaver.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-14.10"
+}
+
+

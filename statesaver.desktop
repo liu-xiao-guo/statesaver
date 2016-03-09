@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=statesaver
+Exec=qmlscene $@ Main.qml
+Icon=statesaver.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
